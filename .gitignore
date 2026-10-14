@@ -8,3 +8,6 @@ __pycache__/
 # Keep datasets private until reviewed
 data/*.csv
 "@ | Set-Content .gitignore
+
+# Keep Power BI reports private until reviewed
+data/*.pbix

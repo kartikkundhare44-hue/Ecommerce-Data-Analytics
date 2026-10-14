@@ -1,0 +1,10 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.vscode/
+
+# Keep datasets private until reviewed
+data/*.csv
+"@ | Set-Content .gitignore
